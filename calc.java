@@ -8,15 +8,20 @@ public class calc {
         char de;
         double w1, w2, w3, w4;
 
+        for (; ;) {
+
+
         Scanner in = new Scanner(System.in);
 
         System.out.println("Введите число");
         double x = in.nextDouble();
-        System.out.println("Введите число");
-        double z = in.nextDouble();
 
         System.out.println("введите операзию ( / * - + )");
         de = (char) System.in.read();
+
+        System.out.println("Введите число");
+        double z = in.nextDouble();
+
         while (de == '/' || de == '*' || de == '-' || de == '+') {
             switch (de) {
                 case '/':
@@ -38,6 +43,8 @@ public class calc {
                 default:
                     System.out.println("!!!");
             }
+
+        }
         }
     }
 }
