@@ -8,7 +8,7 @@ public class calc {
         char de;
         double w1, w2, w3, w4;
 
-        for (; ;) {
+        //for (; ;) {
 
 
         Scanner in = new Scanner(System.in);
@@ -52,6 +52,6 @@ public class calc {
                 System.out.println("Вычитания (-)");
                 System.out.println("Сложения (+)");
             }
-        }
+        //}
     }
 }
