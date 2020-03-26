@@ -44,7 +44,14 @@ public class calc {
                     System.out.println("!!!");
             }
 
-        }
+        } if (true) {
+                System.out.println("Операция " + de + " введена неправильно !!");
+                System.out.println("Допускаются операции: ");
+                System.out.println("Деления (/)");
+                System.out.println("Умножения (*)");
+                System.out.println("Вычитания (-)");
+                System.out.println("Сложения (+)");
+            }
         }
     }
 }
