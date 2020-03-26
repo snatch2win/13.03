@@ -11,7 +11,6 @@ public class IfDemoHardcore {
             double one = in.nextDouble();
             System.out.println("введите число b");
             double two = in.nextDouble();
-
             if (one < two) {
                 System.out.println(one + " < " + two );
             } else if (one > two) {
