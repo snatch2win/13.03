@@ -26,19 +26,19 @@ public class calc {
             switch (de) {
                 case '/':
                     w1 = x / z;
-                    System.out.println(w1);
+                    System.out.println("Результат операции деления равен: " + w1);
                     return;
                 case '*':
                     w2 = x * z;
-                    System.out.println(w2);
+                    System.out.println("Результат операции умножения равен: " + w2);
                     return;
                 case '-':
                     w3 = x - z;
-                    System.out.println(w3);
+                    System.out.println("Результат операции вечетания равен: " + w3);
                     return;
                 case '+':
                     w4 = x + z;
-                    System.out.println(w4);
+                    System.out.println("Результат операции сложения равен: " + w4);
                     return;
                 default:
                     System.out.println("!!!");
